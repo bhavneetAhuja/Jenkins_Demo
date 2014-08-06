@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.003" errors="0" skipped="0" tests="0" name="SampleTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="demo"/>
+    <property name="PWD" value="/Library/Application Support/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/bhavneet.ahuja/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/opt/local/bin/thrift:/Users/bhavneet.ahuja/.rvm/bin"/>
+    <property name="LSCOLORS" value="ExFxBxDxCxegedabagacad"/>
+    <property name="HUDSON_SERVER_COOKIE" value="8d65bc72da516760"/>
+    <property name="POM_ARTIFACTID" value="JenkinsDemo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="19C2ACA2-E989-42CA-B492-7D27F68CCF64"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="JenkinsDemo"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_21-b12"/>
+    <property name="rvm_version" value="1.25.28 (stable)"/>
+    <property name="user.name" value="bhavneet.ahuja"/>
+    <property name="Apple_Ubiquity_Message" value="/tmp/launch-VHuFsV/Apple_Ubiquity_Message"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186a6"/>
+    <property name="user.language" value="en"/>
+    <property name="COMMAND_MODE" value="unix2003"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="TMPDIR" value="/var/folders/ld/bn1r2sbs543g2tl74_q3q_3hdnfm70/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib"/>
+    <property name="rvm_prefix" value="/Users/bhavneet.ahuja"/>
+    <property name="java.version" value="1.7.0_21"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2014-08-05_19-33-13"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.8.5"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="23.21-b01"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="e54f09e9065d85cb789166cb33362bb647723f81"/>
+    <property name="SHLVL" value="1"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="bhavneet.ahuja"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/Users/bhavneet.ahuja"/>
+    <property name="POM_GROUPID" value="jenkinsDemo"/>
+    <property name="user.home" value="/Users/bhavneet.ahuja"/>
+    <property name="BUILD_TAG" value="jenkins-demo-10"/>
+    <property name="JENKINS_SERVER_COOKIE" value="8d65bc72da516760"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/bhavneet.ahuja/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_MAIN_CLASS_838" value="Main"/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="Apple_PubSub_Socket_Render" value="/tmp/launch-b0UeBq/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="10.8"/>
+    <property name="maven.home" value="/usr/share/java/maven-3.0.4"/>
+    <property name="java.class.path" value="/Users/bhavneet.ahuja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.5.jar:/usr/share/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main /usr/share/maven /Users/bhavneet.ahuja/.jenkins/war/WEB-INF/lib/remoting-2.43.jar /Users/bhavneet.ahuja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.5.jar /Users/bhavneet.ahuja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 51544"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/share/maven"/>
+    <property name="java.io.tmpdir" value="/var/folders/ld/bn1r2sbs543g2tl74_q3q_3hdnfm70/T/"/>
+    <property name="HUDSON_HOME" value="/Users/bhavneet.ahuja/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/share/maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/demo/10/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/launch-wVXcLT/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="rvm_path" value="/Users/bhavneet.ahuja/.rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="rvm_bin_path" value="/Users/bhavneet.ahuja/.rvm/bin"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="java.ext.dirs" value="/Users/bhavneet.ahuja/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1B5750E0:0:0"/>
+    <property name="user.dir" value="/Users/bhavneet.ahuja/flipkart/codeBase/Jenkins_Demo"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/demo/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="JAVA_ARCH" value="x86_64"/>
+    <property name="MAVEN_HOME" value="/usr/share/maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="309"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="_system_name" value="OSX"/>
+    <property name="GIT_COMMIT" value="6004186ef5cf06250fc368e3f8526d8189e03ab6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/bhavneet.ahuja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="/Users/bhavneet.ahuja/.jenkins/jobs/demo/workspace"/>
+    <property name="maven3.interceptor.common" value="/Users/bhavneet.ahuja/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLICOLOR" value="1"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="bhavneet.ahuja"/>
+    <property name="GIT_URL" value="https://github.com/bhavneetAhuja/Jenkins_Demo.git"/>
+  </properties>
+</testsuite>
